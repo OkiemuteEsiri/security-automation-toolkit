@@ -1,0 +1,6 @@
+[
+  {"finding_id":"synthetic-CVE-0001","asset_id":"WEB-001","title":"Synthetic remote code execution exposure","severity":"critical","asset_criticality":5,"internet_exposed":true,"known_exploited":true,"days_open":18,"sla_days":7,"owner":"web-platform","evidence":[]},
+  {"finding_id":"synthetic-CVE-0002","asset_id":"APP-014","title":"Synthetic outdated application dependency","severity":"high","asset_criticality":4,"internet_exposed":false,"known_exploited":false,"days_open":46,"sla_days":30,"owner":"application-team","evidence":["patch_applied"]},
+  {"finding_id":"synthetic-CVE-0003","asset_id":"WKST-022","title":"Synthetic local privilege weakness","severity":"medium","asset_criticality":2,"internet_exposed":false,"known_exploited":false,"days_open":8,"sla_days":60,"owner":"endpoint-team","evidence":["patch_applied","rescan_clean","owner_confirmed"]},
+  {"finding_id":"synthetic-CVE-0004","asset_id":"DB-007","title":"Synthetic database configuration finding","severity":"high","asset_criticality":5,"internet_exposed":false,"known_exploited":false,"days_open":12,"sla_days":30,"owner":"database-team","evidence":[]}
+]
